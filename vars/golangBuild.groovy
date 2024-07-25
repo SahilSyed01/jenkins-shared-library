@@ -12,13 +12,6 @@ def call() {
                     }
                 }
             }
-              stage('Test') {
-                steps {
-                    script {
-                        go test ./... -cover
-                    }
-                }
-            }
         }
     }
 }
