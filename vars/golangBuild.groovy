@@ -8,7 +8,7 @@ def call() {
             stage('Build') {
                 steps {
                     script {
-                        go build .
+                        sh 'go build .'
                     }
                 }
             }
