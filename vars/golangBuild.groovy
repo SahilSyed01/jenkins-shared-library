@@ -2,7 +2,7 @@ def call() {
     pipeline {
         agent any
         tools {
-            go 
+            go 'go'
         }
         stages {
             stage('Build') {
